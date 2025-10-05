@@ -36,7 +36,45 @@ Post-quantum cryptography ensures that encrypted data remains secure **even agai
 
 - Python 3.10+  
 - `cryptography`  
-- `kyber-py` (for Kyber post-quantum features)  
+- `kyber-py` (for Kyber post-quantum features)
+
+
+**Menu Options**
+
+1️⃣ Encrypt a file with password  
+2️⃣ Decrypt a file with password  
+3️⃣ Generate Kyber keys 🔑  
+4️⃣ Decrypt file with Kyber (extract embedded key) 📄  
+0️⃣ Exit  
+
+**🖼️ Example Output / Screenshots**
+
+**Step 1: Generate Kyber Keys**  
+<img width="856" height="266" alt="pro1" src="https://github.com/user-attachments/assets/633b7066-b5ee-4a87-9db8-97421608270e" />
+
+
+**Step 2: Encrypt/Decrypt a file**  
+<img width="1370" height="113" alt="pro 2" src="https://github.com/user-attachments/assets/b92df843-5af6-45de-b076-feebb25a4b85" />
+ 
+
+**📚 Detailed Notes**
+
+- AES encryption with password is fully functional.  
+- Kyber512 post-quantum encryption is included for demonstration purposes.  
+- Encrypted files can contain embedded Kyber public keys to verify post-quantum workflow.  
+- Replace `<your-repo-url>` with your GitHub repo URL.  
+- Replace screenshot placeholders with actual images.  
+
+**⚙️ Requirements**
+
+- Python 3.10+  
+- Linux / Windows / macOS  
+- Virtual environment recommended  
+
+**💡 License**
+
+MIT License
+
 
 ### Installation and Running
 
@@ -56,6 +94,4 @@ python -m pip install cryptography kyber-py
 
 # 4. Run the tool
 python secure_vault.py
-
-
 
